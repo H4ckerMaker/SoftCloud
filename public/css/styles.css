@@ -1,0 +1,235 @@
+html,
+body {
+  height: 100%;
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+}
+
+#brandName {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#navbarSupportedContent {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.gradient {
+  background: rgb(195, 79, 224);
+  background: linear-gradient(
+    11deg,
+    rgba(195, 79, 224, 1) 50%,
+    rgba(119, 58, 232, 1) 100%
+  );
+}
+
+.page-header {
+  font-size: 1.5rem;
+  color: white;
+}
+
+#imgCloud {
+  width: 100%;
+  height: auto;
+}
+
+#textTitle {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+#socialDiv i {
+  color: white;
+}
+
+#loginBtn {
+  background-color: rgb(195, 79, 224);
+  border: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+#loginBtn:hover {
+  background-color: rgba(119, 58, 232, 1);
+}
+
+#registerDiv {
+  border-radius: 2rem;
+}
+
+#btnOutline {
+  color: rgb(195, 79, 224);
+  background-color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 0.8rem;
+}
+
+#btnOutline:hover {
+  background-color: white;
+  color: rgba(119, 58, 232, 1);
+}
+
+#firstTitle {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.links {
+  color: white;
+}
+
+.links:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.card {
+  align-items: center;
+  border: none;
+}
+
+.SmallTitle {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#secondRow {
+  font-size: 1.25rem;
+}
+
+.cardboard {
+  border: solid #d0d0d3 1px;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+#imgRocket {
+  width: 100%;
+  height: auto;
+}
+
+.whiteTitle {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+#formDiv {
+  background-color: #f5f5f5;
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+}
+
+.form-check {
+  margin-right: 0.5rem;
+}
+
+#footerContainer {
+  background-color: #525252;
+  font-size: 1.25rem;
+  color: white;
+  text-decoration: none;
+}
+
+.footerTitle {
+  font-weight: bold;
+}
+
+.footerList {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footerList li {
+  margin: 0.8rem;
+}
+
+.footerLink {
+  color: white;
+  text-decoration: none;
+}
+.footerLink:hover {
+  color: white;
+}
+.form-group {
+  margin: 1rem;
+}
+#imgRocket {
+  width: 80%;
+  height: auto;
+}
+#cardForm {
+  background: #f8f9fa;
+  border-top-left-radius: 10% 50%;
+  border-bottom-left-radius: 10% 50%;
+}
+.form-control {
+  margin: 1rem;
+}
+#cardForm {
+  font-size: 1.5rem;
+}
+#RegCard {
+  box-shadow: gray 0.3rem 0.3rem 3rem;
+}
+
+#RegCardLogin {
+  box-shadow: gray 0.3rem 0.3rem 3rem;
+  width: 50%;
+}
+#listFile {
+  width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+  #textTitle {
+    font-size: 3.5rem;
+  }
+  #loginBtn {
+    width: 100%;
+    margin-top: 0.8rem;
+  }
+
+  #socialDiv {
+    display: none;
+  }
+
+  #navbarSupportedContent {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  #RegCardLogin {
+    width: 75%;
+  }
+  #listFile {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #firstTitle {
+    font-size: 2rem;
+  }
+
+  #textTitle {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  #para {
+    text-align: center;
+  }
+
+  #btnOutline {
+    width: 100%;
+  }
+
+  #RegCardLogin {
+    width: 100%;
+  }
+  #listFile {
+    width: 90%;
+  }
+}
